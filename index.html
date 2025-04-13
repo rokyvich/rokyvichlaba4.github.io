@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея природи – Фото з гір та лісів</title>
+    <meta name="description" content="Галерея природи з фотографіями гір, лісів і річок. Оптимізована верстка для швидкого завантаження та кращого SEO.">
+    <meta name="keywords" content="галерея, природа, гори, ліси, річки, фото, SEO, HTML">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-success text-white p-4 text-center">
+        <h1>Галерея природи</h1>
+        <nav>
+            <a href="#gallery" class="text-white me-3">Галерея</a>
+            <a href="#footer" class="text-white">Контакти</a>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <section id="gallery" aria-labelledby="gallery-title">
+            <h2 id="gallery-title" class="text-center mb-4">Фотогалерея</h2>
+            <div class="row">
+                <article class="col-md-4 mb-3">
+                    <picture>
+                        <source srcset="images/image1.webp" type="image/webp">
+                        <img src="images/image1.jpg" class="img-fluid rounded" alt="Гірський пейзаж у тумані">
+                    </picture>
+                </article>
+                <article class="col-md-4 mb-3">
+                    <picture>
+                        <source srcset="images/image2.webp" type="image/webp">
+                        <img src="images/image2.jpg" class="img-fluid rounded" alt="Захід сонця над лісом">
+                    </picture>
+                </article>
+                <article class="col-md-4 mb-3">
+                    <picture>
+                        <source srcset="images/image3.webp" type="image/webp">
+                        <img src="images/image3.jpg" class="img-fluid rounded" alt="Весняна річка серед скель">
+                    </picture>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="bg-dark text-white text-center p-4 mt-5">
+        <p>&copy; 2025 Галерея природи | Оптимізовано для пошукових систем</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
